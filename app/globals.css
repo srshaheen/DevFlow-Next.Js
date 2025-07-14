@@ -25,6 +25,10 @@
   --shadow-light-300: "-10px 10px 20px 0px rgba(218, 213, 213, 0.10)";
 }
 
+
+ 
+
+
 /* utitlites */
 @layer utilities {
   .h1-bold {
@@ -81,6 +85,10 @@
     @apply text-[18px] font-bold leading-[140%];
   }
 
+  .background-light800_darkgradient {
+    @apply bg-light-800;
+  }
+
 }
 
 /* custom css */
@@ -96,6 +104,8 @@
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
  }
+
+
 
   .primary-gradient {
     background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%)
